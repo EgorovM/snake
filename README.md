@@ -4,6 +4,10 @@
 
 > pip install pygame
 
+Для Mac-OS:
+
+>easy_install pygame
+
 Потом запустить игру
 
 > python3 main.py
