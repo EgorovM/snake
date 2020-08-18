@@ -19,6 +19,13 @@ class GUI:
 
         self.cell_width = 32
 
+        self.COLORS = {
+            0 : pygame.Color('black'),
+            1 : pygame.Color('white'),
+            2 : pygame.Color('red'),
+            3 : pygame.Color('green')
+        }
+
     def _draw_lines(self) -> None:
         """ Отрисовка линий """
 
@@ -125,11 +132,3 @@ class GUI:
                 self._draw_grid()
                 pygame.display.flip()
                 clock.tick(self.speed)
-
-
-    COLORS = {
-        0 : pygame.Color('black'),
-        1 : pygame.Color('white'),
-        2 : pygame.Color('red'),
-        3 : pygame.Color('green')
-    }
