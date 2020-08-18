@@ -2,8 +2,8 @@
 
 Чтобы играть нужно установить pygame
 
-// pip install pygame
+> pip install pygame
 
 Потом запустить игру
 
-// python3 main.py
+> python3 main.py
