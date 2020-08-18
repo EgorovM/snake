@@ -10,10 +10,6 @@ class Snake:
         self.lenght = 1
         self.color = 'green'
 
-        self.RIGHT_DIRECTION = 0
-        self.LEFT_DIRECTION  = 1
-        self.UP_DIRECTION    = 2
-        self.DOWN_DIRECTION  = 3
 
     def get_new_coord(self) -> List:
         """ Следующая координата головы змеи
@@ -70,3 +66,8 @@ class Snake:
         """ Голова змеи
         :return: Координаты головы змеи """
         return self._body[-1]
+
+    RIGHT_DIRECTION = 0
+    LEFT_DIRECTION  = 1
+    UP_DIRECTION    = 2
+    DOWN_DIRECTION  = 3

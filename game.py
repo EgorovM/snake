@@ -17,10 +17,6 @@ class SnakeGame:
 
         self.grid = self._generate_grid()
 
-        self.BLANK_CELL = 0
-        self.SNAKE_CELL = 1
-        self.APPLE_CELL = 2
-
     def _generate_grid(self) -> List:
         """ Генерация поля
 
@@ -90,3 +86,7 @@ class SnakeGame:
     def change_direction(self, direction:int) -> None:
         """ Поменять направление движения змеи """
         self.snake.change_direction(direction)
+
+    BLANK_CELL = 0
+    SNAKE_CELL = 1
+    APPLE_CELL = 2
