@@ -1,15 +1,25 @@
 # The best GAME 2020
 
+Легендарная змейка теперь в 2020!
+
+# Установка
+
 Чтобы сыграть нужно установить pygame
 
-> pip install pygame
+```sh
+$ pip install pygame
+```
 
 Для Mac-OS:
 
->easy_install pygame
+```sh
+$ easy_install pygame
+```
 
-Потом запустить игру
+# Запуск
 
-> python3 main.py
+```sh
+$ python3 main.py
+```
 
 Управление введется клавишами стрелок
