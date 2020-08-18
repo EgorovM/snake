@@ -1,7 +1,7 @@
 from typing import List
-from snake import Snake
-
 import random
+
+from snake import Snake
 
 
 class SnakeGame:
