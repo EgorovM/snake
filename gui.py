@@ -22,7 +22,7 @@ class GUI:
     def _draw_lines(self) -> None:
         """ Отрисовка линий """
 
-        for x in range(0, self.grid_width):
+        for x in range(self.grid_width):
             x = x * self.cell_width
             pygame.draw.line(
                 self.screen,
@@ -31,7 +31,7 @@ class GUI:
                 (x, self.WINDOW_SIZE)
             )
 
-        for y in range(0, self.grid_height):
+        for y in range(self.grid_height):
             y = y * self.cell_width
             pygame.draw.line(
                 self.screen,
@@ -81,7 +81,7 @@ class GUI:
         pygame.display.update()
 
     def _change_direction_by_event(self, event:pygame.event) -> None:
-        """ Поменять направление движениязмеи """
+        """ Поменять направление движения змеи """
 
         direction = None
 
