@@ -1,5 +1,4 @@
 from typing import List
-
 import copy
 
 
@@ -53,7 +52,7 @@ class Snake:
             del self._body[0]
         else:
             self.lenght += 1
-    
+
     @property
     def body(self):
         return self._body

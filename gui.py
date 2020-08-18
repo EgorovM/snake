@@ -1,9 +1,10 @@
+import time
+
 import pygame
 
 from game import SnakeGame
 from snake import Snake
 
-import time
 
 class GUI:
     def __init__(self, width:int=20, height:int=20, speed:int=10) -> None:
@@ -119,7 +120,7 @@ class GUI:
 
             if not error is None:
                 self._show_gameover(error)
-                
+
             else:
                 self._draw_grid()
                 pygame.display.flip()
