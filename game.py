@@ -84,6 +84,7 @@ class SnakeGame:
         self.grid = self._generate_grid()
 
     def change_direction(self, direction:int) -> None:
+        """ Поменять направление движения змеи """
         self.snake.change_direction(direction)
 
 

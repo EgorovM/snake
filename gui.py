@@ -80,7 +80,7 @@ class GUI:
         self.screen.blit(text, textRect)
         pygame.display.update()
 
-    def _change_direction_by_event(self, event:pygame.event):
+    def _change_direction_by_event(self, event:pygame.event) -> None:
         """ Поменять направление движениязмеи """
 
         direction = None

@@ -30,7 +30,8 @@ class Snake:
 
         return new_coord
 
-    def change_direction(self, new_direction:int=None):
+    def change_direction(self, new_direction:int=None) -> None:
+        """ Поменять направление движения """
         assert new_direction in [self.RIGHT_DIRECTION, self.LEFT_DIRECTION,
                                  self.UP_DIRECTION, self.DOWN_DIRECTION, None]
 
@@ -54,11 +55,16 @@ class Snake:
             self.lenght += 1
 
     @property
-    def body(self):
+    def body(self) -> List[List]:
+        """ Тело змеи
+        :return: Список координат тела змеи
+        """
         return self._body
 
     @property
-    def head(self):
+    def head(self) -> List:
+        """ Голова змеи
+        :return: Координаты головы змеи """
         return self._body[-1]
 
     RIGHT_DIRECTION = 0
