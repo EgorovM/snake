@@ -13,9 +13,9 @@ class SnakeGame:
                                       for _ in range(self.height)]
 
         self.snake = Snake()
-        self.grid = self._generate_grid()
-
         self._generate_apple()
+
+        self.grid = self._generate_grid()
 
     def _generate_grid(self) -> List:
         """ Генерация поля

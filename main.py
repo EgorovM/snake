@@ -1,4 +1,5 @@
 from gui import GUI
 
-game = GUI()
-game.run()
+if __name__ == '__main__':
+    game = GUI()
+    game.run()
