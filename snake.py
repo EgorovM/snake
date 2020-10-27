@@ -10,7 +10,6 @@ class Snake:
         self.lenght = 1
         self.color = 'green'
 
-
     def get_new_coord(self) -> List:
         """ Следующая координата головы змеи
 

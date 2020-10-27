@@ -124,7 +124,7 @@ class GUI:
                 clock.tick(self.speed)
 
         pygame.quit()
-        
+
     COLORS = {
         0 : pygame.Color('black'),
         1 : pygame.Color('white'),
